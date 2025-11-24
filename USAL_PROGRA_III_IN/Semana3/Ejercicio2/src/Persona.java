@@ -4,10 +4,11 @@ public class Persona {
     private float peso;
     private float altura;
 
+
     public Persona(String nombre, float peso, float altura){
-        this.nombre=nombre;
-        this.peso=peso;
-        this.altura=altura;
+        this.nombre= "desconocido" ;
+        this.peso=70;
+        this.altura=175;
     }
 
     public String getNombre() {
@@ -33,5 +34,4 @@ public class Persona {
     public void setAltura(float altura) {
         this.altura = altura;
     }
-
 }
